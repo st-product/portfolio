@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+    <!-- Intro section -->
+    <section class="h-screen dark:bg-slate-900">
+            <article class="h-1/2 md:h-screen dark:from-slate-800 dark:to-slate-900 bg-gradient-to-t from-indigo-200 relative">
+                <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+                    <div class="container mx-auto py-5 flex items-center justify-between relative">
+                        <div>
+                            <span class="text-2xl text-indigo-900 dark:text-white font-bold">Portfolio</span>
+                        </div>
+                        <ul class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase">
+                            <li class="hover:text-gray-500">
+                                <a href="#">homepage</a>
+                            </li>
+                            <li class="hover:text-gray-500">
+                                <a href="#about">about me</a>
+                            </li>
+                            <li class="hover:text-gray-500">
+                                <a href="#services">services</a>
+                            </li>
+                            <li class="hover:text-gray-500">
+                                <a href="#works">works</a>
+                            </li>
+                            <li class="hover:text-gray-500">
+                                <a href="#contact">contact</a>
+                            </li>
+                        </ul>
+                        <button id="moon" class="hidden md:block text-gray-600 font-bold text-sm cursor-pointer">🌙</button>
+                        <div id="hamburger" class="space-y-1 md:hidden cursor-pointer px-4 z-20 py-2 rounded-sm">
+                            <div class="w-6 h-0.5 bg-black"></div>
+                            <div class="w-6 h-0.5 bg-black"></div>
+                            <div class="w-6 h-0.5 bg-black"></div>
+                        </div>
+                        <ul id="menu" class="text-white hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-center">
+                            <li>
+                                <a id="hLink" href="#">homepage</a>
+                            </li>
+                            <li>
+                                <a id="hLink" href="#about">about me</a>
+                            </li>
+                            <li>
+                                <a id="hLink" href="#services">services</a>
+                            </li>
+                            <li>
+                                <a id="hLink" href="#works">works</a>
+                            </li>
+                            <li>
+                                <a id="hLink" href="#contact">contact</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+                
+                <!-- Image -->
+                <img class="absolute bottom-0 right-0 h-3/4 md:mx-auto md:h-5/6 md:left-0 object-cover" src="./img/me1.png" alt="Steve" >
+                <div class="absolute bottom-1/3 left-5 text-4xl uppercase sm:left-10 md:text-6xl md:text-1/4 font-bold">
+                    <span class="text-indigo-600">front-end</span>
+                    <p class="text-red-500">developer</p>
+                </div>
+                   
+                <!-- Text -->
+                <div class="hidden dark:bg-slate-900 dark:shadow-slate-800 absolute md:flex flex-col top-0 bottom-0 m-auto h-fit right-10 p-6 bg-white w-1/3 gap-5 rounded-md shadow-lg">
+                    <h1 class="text-4xl font-bold text-indigo-900">Hi I'm Steve</h1>
+                    <p class="text-gray-400 mb-5">with over 2 years of experience in web design and development. I've been building websites with focus on responsive design and making the site interactive. If you need to create a dynamic website with different pages or different type of content, then I can help.</p>
+                    <a class="bg-indigo-600 hover:bg-indigo-700 px-3 py-2 font-semibold rounded-md text-xl text-white w-fit" href="#contact">Hire me</a>
+                </div>
+            </article>
+            <div class="md:hidden mt-4 dark:bg-slate-900 dark:shadow-slate-800 m-auto p-6 bg-white w-2/3 gap-5 rounded-md shadow-lg">
+                <h1 class="text-4xl font-bold text-indigo-900">Hi I'm Steve</h1>
+                <p class="text-gray-400 mb-5">with over 2 years of experience in web design and development. I've been building websites with focus on responsive design and making the site interactive. If you need to create a dynamic website with different pages or different type of content, then I can help.</p>
+                <a class="bg-indigo-600 hover:bg-indigo-700 px-3 py-2 font-semibold rounded-md text-xl text-white w-fit" href="#contact">Hire me</a>
+            </div>
+        </section>
+
+        <!-- about -->
+        <article id="about" class="px-10 dark:bg-slate-900">
+            <div class="container mx-auto py-40 flex flex-col-reverse md:flex-row items-center gap-20">
+                <!-- right -->
+                <img class="w-1/2 object-cover rounded-full" src="./img/me.jpg" alt="profile">
+                <!-- left -->
+                <div class="my-auto flex flex-col gap-3">
+                    <h1 class="text-indigo-600 uppercase font-bold">about me</h1>
+                    <h1 class="text-3xl font-medium uppercase dark:text-white">better design</h1>
+                    <h1 class="text-3xl font-medium uppercase dark:text-white">better experience</h1>
+                    <p class="text-gray-400">I design and build products. I'm also a multi-disciplinary maker with over 2 years of experience in wide range of design and development discipline.</p>
+                    <h2 class="text-gray-400 font-medium uppercase">html</h2>
+                    <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                        <div class="w-full bg-indigo-600 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-400 font-medium uppercase">css</h2>
+                    <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                        <div class="w-7/12 bg-indigo-600 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-400 font-medium uppercase">javascript</h2>
+                    <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                        <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-400 font-medium uppercase">react</h2>
+                    <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                        <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                    </div>
+                </div>
+            </div>
+        </article> 
+    
+
+    <!-- Services -->
+    <article class="pt-20 pb-30 dark:bg-slate-900" id="services">
+        <!-- Top -->
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold uppercase">services</h1>
+                <h1 class="text-3xl dark:text-white">What do I offer?</h1>
+                <p class="text-gray-400 w-1/2 text-center">My aproach to website design is to create a website that strengthens your company's brand while ensuring ease of use and simplicity for your audience</p>
+            </div>
+        </div>
+        <!-- cards -->
+        <div class="flex flex-wrap justify-evenly">
+            <div class="w-full md:w-1/3 shadow-xl rounded-lg p-5 flex flex-col gap-3 h-fit">
+                <div class="bg-indigo-600 p-1 rounded-full w-fit my-2 md:my-5">💻</div>
+                <h1 class="uppercase font-medium text-lg dark:text-white">ux / ui design</h1> 
+                <p class="text-gray-400">I foresee the visual appearance and solve problems that might occur when a user interacts with a software program. 
+                    <details>
+                        <summary><span class="text-indigo-600 font-semibold text-sm cursor-pointer">Read more</span></summary>
+                        <p class="text-gray-400">I focus on creating style guides for websites, and contempleting layout is where you will find me. I'm committed to creating fluent user experience while staying fashionable.</p>
+                    </details> 
+                </p>
+                
+            </div>
+            <div class="w-full md:w-1/3 shadow-xl rounded-lg p-5 flex flex-col gap-3 h-fit">
+                <div class="bg-indigo-600 p-1 rounded-full w-fit my-2 md:my-5">💻</div>
+                <h1 class="uppercase font-medium text-lg dark:text-white">web development</h1>
+                <p class="text-gray-400">I specialize in creating interactive websites for individuals and small businesses.
+                    <details>
+                        <summary><span class="text-indigo-600 font-semibold text-sm cursor-pointer">Read more</span></summary>
+                        <p class="text-gray-400">In building Javascript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale-performance and scalability are priorities on my radar.</p>
+                    </details>
+                 </p>
+            </div>
+        </div>
+    </article>
+
+    <!-- Portfolio -->
+    <article id="works" class="py-20 dark:bg-slate-900">
+        <!-- Top -->
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold uppercase">portfolio</h1>
+                <h1 class="text-3xl dark:text-white">Works and Projects</h1>
+                <p class="text-gray-400 w-1/2 text-center pb-6">I help designers, small agencies and businesses bring their ideas to live. Powered by REACT, VS Code and coffee, I turn your requirements into a well-designed websites. Below are some of my projects.</p>
+            </div>
+        </div>
+        <!-- projects -->
+        <div class="flex flex-wrap justify-evenly">
+            <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 flex flex-col gap-3">
+                <img src="./img/img9.PNG" alt="acme-rocket">
+                <p class="text-gray-400 uppercase font-semibold"><a href="https://steve-acme-rocket.onrender.com/">acme-rocket</a></p>
+            </div>
+            <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 flex flex-col gap-3">
+                <img src="./img/img5.PNG" alt="to do app">
+                <p class="text-gray-400 uppercase font-semibold">to do app</p>
+            </div>
+            <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 flex flex-col gap-3">
+                <img src="./img/img8.PNG" alt="calculator app">
+                <p class="text-gray-400 uppercase font-semibold">calculator app</p>
+            </div>
+        </div>
+    </article>
+
+    <!-- Contact -->
+    <article class="py-20 dark:bg-slate-900" id="contact">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold uppercase">contact</h1>
+                <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+                <p class="text-gray-400 w-1/2 text-center">Do you have an idea? Let's discuss it and see what we can do together.</p>
+            </div>
+        </div>
+        <div>
+            <form class="m-5 p-8 flex flex-col gap-5 items-center" onsubmit="emailSend(event)">
+                <input type="text" required placeholder="Surname" id="surname" class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white">
+                <input type="email"required placeholder="email@gmail.com" id="email" class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white">
+                <textarea required id="textBody" placeholder="Hello, I need a website for our product at company X ..." class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white" cols="30" rows="10"></textarea>
+                <button type="submit" class="w-1/2 hover:bg-indigo-700 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">Submit</button>
+            </form>
+        </div>
+    </article>
+
+    <!-- footer -->
+    <article>
+        <nav class="w-full bg-gray-800">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+                <div>
+                    <span class="text-2xl text-indigo-900 font-bold">Portfolio</span>
+                </div>
+                <span class="font-medium text-white">&copy;2024 Portfolio, Designed by Steve</span>
+                
+            </div>
+        </nav>
+    </article>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./app.js"></script>   
+</body>
+</html>
